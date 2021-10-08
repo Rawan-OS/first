@@ -26,6 +26,11 @@ html {
 body {
     font-family: 'Work Sans', sans-serif;
 }
+@media( max-width: 406px) {
+  body {
+      width:auto;
+  }
+}
 
 .container {     
     padding-left: 15px;   
@@ -194,6 +199,7 @@ body {
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
+
 .features .feat i {
     color: black;
     width: 100px;
@@ -328,6 +334,11 @@ body {
 .about .about-content .image img {
     max-width: 150%;
 }
+@media (max-width: 390px) {
+    .about .about-content .image img {
+        max-width: 100%;
+    }
+}
 
 .about .about-content .text {
     flex-basis: calc(100% - 500px);
@@ -358,6 +369,7 @@ body {
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
     text-align: center;
+    font-weight: bolder;
 }
 .contact .info .lable {
     font-size: 35px;
@@ -369,9 +381,11 @@ body {
 .contact .info .link {
     display: block;
     font-size: 35px;
-    font-weight: 800px;
-    color: var(--last-color);
+    font-weight: 700;
+    color: #e8b40f;
     text-decoration: none;
+    margin-bottom: 5%;
+    margin-top: 3%;
 }
 .contact .info .social {
     display: flex;
@@ -381,14 +395,26 @@ body {
 }
 .contact .info .social i {
     margin-left: 10px;
-    color: var(--main-color);
+    color: #e8b40f;
+    margin-top: -23%;
+    font-size: 33px;
 }
 @media (max-width: 767px) {
     .contact .info .link, 
     .contact .info .lable {
-        font-size: 30px;
+        font-size: 20px;
+        font-weight: 800;
+        margin-left: -2%;
     }
 }
+  
+@media (max-width: 318px) {
+    .contact .info .link, 
+    .contact .info .lable {
+        margin-left: -6%;
+    }
+}
+
 /* start footer*/
 .footer {
     background-color: var(--main-color);
