@@ -1,4 +1,9 @@
 /*start variables*/
+
+::-webkit-scrollbar {
+    display: none;
+}
+
 :root {
     --main-color: rgb(255 206 25);
     --section-padding: 60px;
