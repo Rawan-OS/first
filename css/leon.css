@@ -5,7 +5,7 @@
 }
 
 :root {
-    --main-color: rgb(255 206 25);
+    --main-color: rgb(255 210 43);
     --section-padding: 60px;
     --section-background: #f6f6f6;
     --secondary-color: rgb(255 206 25 / 62%);
@@ -241,7 +241,7 @@ body {
  
 .services .services-content .srv i {
     color: var(--main-color);
-    flex-basis: 60px; 
+    flex-basis: 60px;
     width: 100px;
     font-size: 200%;
 
@@ -263,7 +263,7 @@ body {
     text-align: center;
     position: relative;
 }
- 
+
 .services  .services-content .image img {
     width: 260px;
 }
@@ -292,9 +292,11 @@ body {
 }
 .Portfolio .Portfolio-content .card .info {
     padding: 20px;
+    text-align: center;
 }
 .Portfolio .Portfolio-content .card .info h3 {
     margin: 0;
+    font-size: x-large;
 }
 .Portfolio .Portfolio-content .card .info p {
     color: black;
